@@ -22,7 +22,7 @@ const DropDownLoggedIn = ({ setDropDown }) => {
       }
     };
     fetchData();
-  }, []);
+  }, []); //eslint-disable-line
   return (
     <div
       id="dropdownAvatar"
