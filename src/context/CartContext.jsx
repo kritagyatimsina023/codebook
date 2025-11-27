@@ -6,7 +6,7 @@ const cartInitialState = {
   total: 0,
 };
 
-const cartContext = createContext(cartInitialState);
+const CartContext = createContext(cartInitialState);
 
 export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducers, cartInitialState);
@@ -54,6 +54,6 @@ export const CartProvider = ({ children }) => {
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const useCart = () => {
-  const context = useContext(cartContext);
+  const context = useContext(CartContext);
   return context;
 };
