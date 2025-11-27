@@ -5,7 +5,7 @@ import { Search, Settings, ShoppingBag, User } from "lucide-react";
 import SearchSection from "../Sections/SearchSection";
 import { DropDownLoggedIn } from "../index";
 import { DropDownLoggedOut } from "../index";
-import { useCart } from "../../context/cartContext";
+import { useCart } from "../../context/CartContext";
 
 const Header = () => {
   const [searchToggle, setSearchToggle] = useState(false);

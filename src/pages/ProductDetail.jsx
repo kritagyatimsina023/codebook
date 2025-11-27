@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Rating from "../components/Elements/Rating";
 import { useParams } from "react-router-dom";
 import useTitle from "../hooks/useTitle";
-import { useCart } from "../context/cartContext";
+import { useCart } from "../context/CartContext";
 import { getProduct } from "../services/productService";
 import { toast } from "sonner";
 
