@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark *));
+@import url("https://fonts.googleapis.com/css2?family=...");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  min-height: 90vh;
+  max-width: 1280px;
+  margin: auto;
+  padding: 15px;
+}
